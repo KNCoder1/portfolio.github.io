@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio KN</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            color: white;
+            font-family: Calibri;
+        }
+        header{
+            background-image: url(images/bgimage3.jpg);
+            position: fixed;
+            width: 100%;
+            background-repeat: no-rpeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .head{
+            border-radius: 3px;
+            padding: 10px;
+            margin: 8px;
+            color: white;
+            background-color: rgb(0, 143, 179);
+            text-decoration: none;
+            font-family:'Segoe UI';
+        }
+        #portfolio{
+            margin: 25px;
+            color: white;
+            font-family: cursive;
+            text-decoration: none;
+            font-size: 28px;
+        }
+        footer{
+            background-image: url(images/bgimage3.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        #portfolio:hover{
+            font-size: 29px;
+            color: rgb(240, 240, 240);
+        }
+        .head:hover{
+            background-color: rgb(0, 178, 223);
+            font-size: 17px;
+        }
+        .head:active{
+            background-color: rgb(2, 163, 29);
+        }
+        .footnav:hover{
+            width: 27px;
+        }
+        main{
+            background-image: url(images/bgimage2.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .about{
+            margin-left: 20px;
+        }
+        img:hover{
+            width: 486px;
+            border-radius: 8px;
+        }
+        #itsmysite:hover{
+            background-color: rgb(0, 149, 218);
+            border-radius: 6px;
+            padding: 5px;
+        }
+        #itsmysite{
+            margin: 5%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h6 style="opacity: 0;">KN</h6>
+        <nav>
+            <a href="index.html" id="portfolio">Portfolio</a>
+            <a href="#about" class="head">About</a>
+            <a href="#work" class="head">Work</a>
+            <a href="https://kncoder1.github.io/maktab-xaqida-sayt.github.io" class="head" target="blank">My Web Site</a>
+            <a href="" style="opacity: 0;">K</a>
+        </nav>
+        <h4 style="opacity: 0;">KN</h4>
+    </header>
+    <br><br><br><br>
+    <main>
+        <div id="about">
+            <h1 style="text-align: center; font-family: cursive;">About</h1>
+            <div id="frontend" class="about">
+                <h2>Front-End</h2>
+                <p style="padding: 25px; font-family: cursive;">
+                    front-end) - the client side of the user interface to the software and hardware part of the service.
+                    Backend (English back-end) - the software and hardware part of the service, which is responsible for the functioning of its internal part.
+                </p>
+            </div>
+            <div id="gamedev" class="about">
+                <h2>Game Developer</h2>
+                <p style="padding: 25px; font-family: cursive;">
+                    The development of computer games can be carried out either by one person or by a company. 
+                    Commercial games are created by development teams hired by the same firm. Firms can specialize in the production 
+                    of games for personal computers, game consoles or tablet computers.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div id="work">
+            <h1 style="font-family: cursive; text-align: center;">Work</h2>  
+            <a href="https://kncoder1.github.io/maktab-xaqida-sayt.github.io" target="blank">
+                <img src="images/site.png" alt="My Site" title="My Site" width="480px" style="margin-left: 10px;">
+            </a> 
+            <p style="float: right; margin-right: 300px; font-family: cursive; font-size: 26px;" id="itsmysite">
+                It's my site about schooll!
+            </p>
+            <br><br> 
+                <a href="index.html" target="blank">
+                    <img src="images/site2.png" alt="My Site" title="My Site" width="480px" style="margin-left: 10px;">
+                </a> 
+                <p style="float: right; margin-right: 250px; font-family: cursive; font-size: 26px;" id="itsmysite">
+                    It's my site about my portfolio!
+                </p>
+                <br><br>
+        </div>
+    </main>
+    <footer>
+        <h2 style="padding: 5px; font-family: cursive; margin-left: 6px;">Contact Us!</h2>
+        <a href="http://t.me/kncoder" target="blank" style="font-size: 0; margin: 8px;">
+            <img src="images/tme.png" alt="Telegram" title="Telegram" width="25px" style="border-radius: 50%;"  class="footnav">
+        </a>
+        <a href="noindex.html" target="blank" style="font-size: 0; margin: 8px;">
+            <img src="images/yt.jpg" alt="Youtube" title="Youtube" width="25px" style="border-radius: 50%;"  class="footnav">
+        </a>
+        <a href="noindex.html" target="blank" style="font-size: 0; margin: 8px;">
+            <img src="images/facebook.png" alt="Facebook" title="Facebook" width="25px" style="border-radius: 50%;"  class="footnav">
+        </a>
+        <a href="noindex.html" target="blank" style="font-size: 0; margin: 8px;">
+            <img src="images/github.png" alt="Github" title="Github" width="25px" style="border-radius: 50%;" class="footnav">
+        </a>
+        <br><br><br>
+    </footer>
+</body>
+</html>
